@@ -1,11 +1,11 @@
 import React from 'react';
 import './Header.css'; // Import the CSS file
-
+import logo from '../assets/UI Logo.png';
 const Header = () => {
     return (
         <header className="header">
             <div className="header-left">
-                <img src="logo.png" alt="logo" className="logo" />
+                <img src={logo} alt="logo" className="logo"  />
                 <nav className="nav">
                     <a href="#explore" className="nav-link">Explore</a>
                     <a href="#faqs" className="nav-link">FAQ's</a>
