@@ -1,5 +1,6 @@
 import React from 'react';
 import './CommentsSection.css';
+import profileimage from '../assets/21.png';
 
 function CommentsSection() {
   return (
@@ -8,7 +9,7 @@ function CommentsSection() {
       <div className="comment-box">
         <div className="user-comment">
           <img
-            src="https://via.placeholder.com/50" // Replace with the actual profile image URL
+            src={profileimage}
             alt="User"
             className="user-avatar"
           />

@@ -44,3 +44,18 @@ function Footer() {
 }
 
 export default Footer;
+
+
+// import React from 'react'
+// import Column from '../assets/column.png';
+// const Footer = () => {
+//   return (
+//     <footer>
+//       <div>
+//         <img src={Column} alt=""/>
+//       </div>
+//     </footer>
+//   )
+// }
+
+// export default Footer

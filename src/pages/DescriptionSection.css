@@ -1,76 +1,81 @@
 .description-section {
-    display: flex;
-    justify-content: space-between;
-    color: #ffffff;
-    background-color: #181818;
-    padding: 20px;
-    max-width: 1000px;
-    margin: 20px auto;
-  }
-  
-  .description-content {
-    flex: 1;
-    margin-right: 40px;
-  }
-  
-  .description-content h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .description-content p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin: 10px 0;
-  }
-  
-  .description-content a {
-    color: #ff5722; /* Link color */
-    text-decoration: none;
-  }
-  
-  .features-format {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .features {
-    margin-bottom: 20px;
-  }
-  
-  .features h3, .format h3 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .features ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .features li {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    margin: 5px 0;
-    color: #90ee90; /* Light green color for check icon */
-  }
-  
-  .features li svg {
-    margin-right: 10px;
-  }
-  
-  .format p {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-  }
-  
-  .format img {
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
-  }
+  display: flex;
+  /* justify-content: space-between; */
+  color: #ffffff;
+  background-color: #181818;
+  padding: 2rem;
+  /* max-width: 1000px; */
+  width: 80%;
+  margin: 20px auto;
+}
+
+.description-content {
+  flex: 1;
+  margin-right: 40px;
+  /* width: 50%; */
+  max-width: 600px;
+}
+
+.description-content h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.description-content a {
+  color: white; /* Link color */
+  text-decoration: none;
+}
+
+.features-format {
+  display: flex;
+  /* width: 50%; */
+  max-width: 600px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.features {
+  margin-bottom: 20px;
+}
+
+.features h3, .format h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin: 20px 0;
+}
+
+.features li svg {
+  margin-right: 10px;
+  color: #90ee90; /* Light green color for check icon */
+}
+
+.format p {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.format img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
