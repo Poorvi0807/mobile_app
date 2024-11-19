@@ -1,10 +1,10 @@
 import React from 'react';
 import './Footer.css';
 import { FaInstagram, FaTwitter, FaBehance, FaEnvelope } from 'react-icons/fa';
-
+import column from "../assets/column.png";
 function Footer() {
   return (
-    <footer className="footer">
+    <>    <footer className="footer">
       <div className="footer-content">
         <div className="footer-logo-section">
           <div className="footer-logo">ui</div>
@@ -39,23 +39,14 @@ function Footer() {
           </div>
         </div>
       </div>
+      
     </footer>
+    <div>
+        <img src={column} />
+      </div>
+      </>
+
   );
 }
 
 export default Footer;
-
-
-// import React from 'react'
-// import Column from '../assets/column.png';
-// const Footer = () => {
-//   return (
-//     <footer>
-//       <div>
-//         <img src={Column} alt=""/>
-//       </div>
-//     </footer>
-//   )
-// }
-
-// export default Footer

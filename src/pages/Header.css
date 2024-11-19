@@ -24,7 +24,9 @@ header > div{
 .header-2{
     display: flex;
     justify-content: space-between;
-    margin-top: 85px;
+    margin-top: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .logo {
     width: 40px;
@@ -48,7 +50,7 @@ header > div{
 
 /* Center section (Title and Subtitle) */
 .header-center {
-    text-align: center;
+    text-align: left;
 }
 
 .title {
